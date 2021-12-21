@@ -1,6 +1,14 @@
+import { MdClose } from "react-icons/md";
 const NavbarPC = (props) => {
   return (
-    <div className="navbarPC-container" style={props.navbarPCStyle}>
+    <div className="navbarPC-container" style={props.style}>
+      <div className="main-menu-close-container">
+        <MdClose
+          className="icons main-menu-close-icon"
+          onClick={props.menuClose}
+          style={props.menuCloseStyle}
+        />
+      </div>
       <nav>
         <ul>
           <li>Home</li>

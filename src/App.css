@@ -18,6 +18,7 @@ nav {
 .icons {
   font-size: calc(24px + (40 - 24) * ((100vw - 300px) / (1600 - 300)));
   cursor: pointer;
+  color: #929292;
 }
 
 .navbarPC-container {
@@ -31,8 +32,8 @@ nav {
   right: 0;
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
-  /* margin-bottom: 2000px; */
-  transition: all 0.5ms linear;
+  margin-bottom: 1000px;
+  transition: all 500ms linear;
 }
 
 .navbarPC-container nav {
@@ -84,4 +85,14 @@ header {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+}
+
+.main-menu-close-container {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+
+.main-menu-close-icon {
+  transition: all 500ms linear;
 }
